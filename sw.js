@@ -3,6 +3,7 @@ const cacheVersion = "v1.0.1";
 const cacheList = [
 	'/',
   './index.html',
+  './image/logo.jpg',
 ]
 
 //install
