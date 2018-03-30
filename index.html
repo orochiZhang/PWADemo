@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="manifest" href="manifest.json">
+  <title>PWADemo</title>
+</head>
+
+<body>
+<p>用最简单的教程，让你把自己的网站改造为PWA网站。</p>
+</body>
+
+<script>
+  if(navigator.serviceWorker != null){
+    navigator.serviceWorker.register('sw.js').then((registration) => {
+      console.log(`registration events at scope: ${registration.scope}`)
+    })
+  }
+</script>
+</html>
