@@ -1,0 +1,13 @@
+{
+  "name":"Progressive Web App Demo",
+  "short_name":"PWADemo",
+  "start_url":".",
+  "background_color":"#2f343b",
+  "display": "standalone",
+  "description":"a simple pwa",
+  "icons":[{
+    "src":"./image/logo.png",
+    "sizes":"300x300",
+    "type":"image/png"
+  }]
+}
