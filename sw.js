@@ -2,13 +2,7 @@ const cacheVersion = "v1.0.1";
 
 const cacheList = [
 	'/',
-  './image/bg.jpg',
-  './image/qq.webp',
-  './image/robot.webp',
-  './image/treeHole.webp',
-  './mobile.css',
-  './row.css',
-	'./style.css'
+  './index.html',
 ]
 
 //install

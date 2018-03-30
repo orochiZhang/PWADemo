@@ -6,8 +6,8 @@
   "display": "standalone",
   "description":"a simple pwa",
   "icons":[{
-    "src":"./image/logo.png",
+    "src":"./image/logo.jpg",
     "sizes":"300x300",
-    "type":"image/png"
+    "type":"image/jpg"
   }]
 }
