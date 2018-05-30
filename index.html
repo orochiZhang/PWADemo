@@ -38,7 +38,10 @@
     // 检查用户是否同意接受通知
     else if (Notification.permission === "granted") {
       // If it's okay let's create a notification
-      var notification = new Notification("Hi there!");
+      var notification = new Notification("Hi there!", {
+        body: "notification Test.\n" + "Hello",
+        icon: "https://orochizhang.github.io/PWADemo/image/logo.jpg",
+      });
     }
 
     // 否则我们需要向用户获取权限
