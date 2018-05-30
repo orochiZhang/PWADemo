@@ -1,13 +1,18 @@
 {
-  "name":"Progressive Web App Demo",
-  "short_name":"PWADemo",
-  "start_url":".",
-  "background_color":"#2f343b",
+  "name": "Progressive Web App Demo",
+  "short_name": "PWADemo",
+  "start_url": ".",
+  "background_color": "#2f343b",
   "display": "standalone",
-  "description":"a simple pwa",
-  "icons":[{
-    "src":"./image/logo.jpg",
-    "sizes":"300x300",
-    "type":"image/jpg"
-  }]
+  "description": "a simple pwa",
+  "permissions": {
+    "desktop-notification": {}
+  },
+  "icons": [
+    {
+      "src": "./image/logo.jpg",
+      "sizes": "300x300",
+      "type": "image/jpg"
+    }
+  ]
 }
